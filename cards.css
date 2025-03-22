@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+body{
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczQ4LXRlZC0wNzA2LWV5ZS0wMS5qcGc.jpg");
+    background-size: cover;
+}
+.cafe-cards{
+    margin-top: 50px;
+    transition: transform 0.6s ease;
+}
+.cafe-cards:hover{
+    transform: translateY(-20px);
+}
+.cafe-card-img{
+    height: 50vh;
+}
+.card-body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    
+}
+.card-body:hover{
+    background-color: black;
+    color: aliceblue;
+}
+*{
+    margin: 0%;
+    border: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-size: 35px;
+    padding-left: 20px;
+    color: white;
+    filter: drop-shadow(5px 10px 5px gold);
+}
+.navbar-right{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.navbar-right a{
+    text-decoration: none;
+}
+a{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    list-style: none;
+}
+a:hover{
+    background-color: rgb(93, 11, 11);
+}
